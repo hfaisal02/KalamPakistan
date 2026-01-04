@@ -1,6 +1,9 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+  <meta charset="UTF-8">
+  <title>Redirecting...</title>
+
   <!-- Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-BV56D5Z25F"></script>
   <script>
@@ -10,8 +13,12 @@
     gtag('config', 'G-BV56D5Z25F');
   </script>
 
-  <!-- Redirect after short delay -->
-  <meta http-equiv="refresh" content="0; url=https://kalampakistan.carrd.co">
+  <!-- Delayed redirect -->
+  <script>
+    setTimeout(function () {
+      window.location.href = "https://kalampakistan.carrd.co/";
+    }, 1500); // 1.5 seconds
+  </script>
 </head>
 <body>
   <p>Redirecting…</p>
